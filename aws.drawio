@@ -1,0 +1,66 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Página-1" id="kgINTwDDJ1Lyzeh85oHN">
+    <mxGraphModel dx="1708" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-8" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="770" height="392.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-1" value="D-EBS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.972;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nebzz_FBIPOkmC1-sfWK-2" target="Nebzz_FBIPOkmC1-sfWK-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="572.5" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-3" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.web;fillColorStyles=fillColor2,fillColor3,fillColor4;fillColor2=#032d60;fillColor3=#0d9dda;fillColor4=#ffffff;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="60" height="47.400000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nebzz_FBIPOkmC1-sfWK-3" target="Nebzz_FBIPOkmC1-sfWK-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-7" value="envia o arquivo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nebzz_FBIPOkmC1-sfWK-6">
+          <mxGeometry x="0.0953" y="1" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nebzz_FBIPOkmC1-sfWK-10" target="Nebzz_FBIPOkmC1-sfWK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-10" value="EC2" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application_server;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="64.48" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nebzz_FBIPOkmC1-sfWK-10" target="Nebzz_FBIPOkmC1-sfWK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-12" value="E-EBS" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.volume;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="198.75" width="52.5" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="733" y="130" width="42" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nebzz_FBIPOkmC1-sfWK-10" target="Nebzz_FBIPOkmC1-sfWK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="200" />
+              <mxPoint x="713" y="200" />
+              <mxPoint x="713" y="156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nebzz_FBIPOkmC1-sfWK-16" value="RDS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nebzz_FBIPOkmC1-sfWK-15">
+          <mxGeometry x="0.2782" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
